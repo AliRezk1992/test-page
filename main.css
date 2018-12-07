@@ -1,0 +1,218 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(197, 194, 194);
+    margin: 0;
+    padding: 0;
+    /* scroll-behavior: smooth; */
+}
+
+
+
+/* header */
+header{
+    
+    background-color: rgb(197, 194, 194);
+}
+
+header h1 {
+    text-align: center;
+    font-family: 'Unlock', cursive;
+    text-shadow: 2px 2px 5px red;
+    padding: 20px;
+    margin-top: 0;
+}
+
+
+header nav ul {
+    background-color: #333333;
+    list-style-type: none;
+    margin: 1px;
+    padding: 10px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    }
+
+nav li a {
+    /* display: block; */
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Black And White Picture', sans-serif;
+    font-size: 25px;
+} 
+
+
+
+
+/* .....main .....*/
+
+
+/* ....about.... */
+
+#about h2 {
+    /* background: url(https://cdn.pixabay.com/photo/2015/09/05/20/02/coding-924920_960_720.jpg) center/cover no-repeat;
+    background-attachment: fixed;
+    height: 100px;
+    color: azure; */
+    margin: 20px;
+}
+
+.about {
+    background: url(https://cdn.pixabay.com/photo/2018/01/23/23/34/nature-3102762_960_720.jpg) center/cover no-repeat;
+    background-attachment: fixed;
+    color: azure;
+}
+
+.about img {
+    max-width: 60%;
+    height: auto;
+    box-shadow: 2px 2px 4px burlywood;
+    margin: 15%
+}
+
+/* .img {
+    width: 500px;
+    height: 500px;
+} */
+
+.about {
+/* display: flex;
+justify-content: space-around;
+padding: 20px; */
+display: grid;
+grid-template-columns: 50% 50%;
+justify-content: center;
+align-items: center
+}
+
+.para {
+
+}
+
+.about p {
+    padding: 30px;
+}
+
+
+/*..... work .....*/
+#work h2{
+    /* height: 100px;
+    background: url(https://cdn.pixabay.com/photo/2017/10/30/18/44/hacking-2903156_960_720.jpg) center/cover no-repeat;
+    background-attachment: fixed;
+    color: azure; */
+}
+
+
+.work {
+    background: url(https://cdn.pixabay.com/photo/2018/01/23/23/34/nature-3102762_960_720.jpg) center/cover no-repeat;
+    background-attachment: fixed;
+    height: 450px;
+    color: azure;
+}
+
+.link {
+    text-align: center;
+}
+
+.link a {
+    font-family: 'Noto Serif SC', serif;
+    font-size: 25px;
+}
+
+
+
+/* ......contact..... */
+
+#contact h2 {
+    /* height: 100px;
+    background: url(https://cdn.pixabay.com/photo/2018/03/15/16/11/background-3228704_960_720.jpg) center/cover no-repeat;
+    background-attachment: fixed;
+    color: azure; */
+}
+
+
+.contact {
+    background: url(https://cdn.pixabay.com/photo/2018/01/23/23/34/nature-3102762_960_720.jpg) center/cover no-repeat;
+    background-attachment: fixed;
+    height: 450px;
+    color: azure;
+}
+
+
+.contact ul {
+    list-style-type: none;
+    padding-top: 150px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+
+.contact li {
+    font-size: 25px;
+}
+
+
+.contact li a {
+    font-family: 'Black And White Picture', sans-serif;
+    font-size: 25px;
+}
+
+
+
+/* ....footer.... */
+
+
+footer p {
+    font-family: 'Anton', sans-serif;
+    text-shadow: 2px 2px 5px red;
+}
+
+
+.icon {
+    text-align: center;
+}
+
+
+
+/*.... fonts.... */
+
+h2 {
+    text-shadow: 2px 2px 5px red;
+    text-align: center;
+    /* padding: 20px; */
+}
+
+#about h2 {
+    font-family: 'Unlock', cursive;
+    font-size: 30px;
+}
+
+#work h2 {
+    font-family: 'Unlock', cursive;
+    font-size: 30px;
+}
+
+#contact h2 {
+    font-family: 'Unlock', cursive;
+    font-size: 30px;
+}
+
+p {
+    font-family: 'Noto Serif SC', serif;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+}
+/*............*/
+
+
