@@ -65,7 +65,7 @@ nav li a {
 }
 
 .about {
-    background: url(https://cdn.pixabay.com/photo/2018/01/23/23/34/nature-3102762_960_720.jpg) center/cover no-repeat;
+    background: url(nature.jpg) center/cover no-repeat;
     background-attachment: fixed;
     color: azure;
 }
@@ -111,7 +111,7 @@ align-items: center
 
 
 .work {
-    background: url(https://cdn.pixabay.com/photo/2018/01/23/23/34/nature-3102762_960_720.jpg) center/cover no-repeat;
+    background: url(nature.jpg) center/cover no-repeat;
     background-attachment: fixed;
     height: 450px;
     color: azure;
@@ -139,7 +139,7 @@ align-items: center
 
 
 .contact {
-    background: url(https://cdn.pixabay.com/photo/2018/01/23/23/34/nature-3102762_960_720.jpg) center/cover no-repeat;
+    background: url(nature.jpg) center/cover no-repeat;
     background-attachment: fixed;
     height: 450px;
     color: azure;
@@ -214,5 +214,3 @@ p {
     text-align: center;
 }
 /*............*/
-
-
